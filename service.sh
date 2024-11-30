@@ -56,7 +56,7 @@ systemctl start "${SERVICE_NAME}"
 if systemctl is-active --quiet "${SERVICE_NAME}"; then
     echo "Service successfully started"
 else
-    echo "❌ Service failed to start"
+    echo "Service failed to start"
     systemctl status "${SERVICE_NAME}"
     exit 1
 fi
