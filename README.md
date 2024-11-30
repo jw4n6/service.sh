@@ -1,11 +1,9 @@
 # service.sh
-Script to download a binary and create systemd service for persistence: ([T1543.002](https://attack.mitre.org/techniques/T1543/002/))
+This script automates the download of a remote payload, creation and setup of a systemd service for persistance: ([T1543.002](https://attack.mitre.org/techniques/T1543/002/))
+
+The script self-deletes after successful execution.
 
 Used for adversary emulation and red teaming activities.
-
-Self-deletes after successful execution.
-
-Requires root privileges and binary URL configuration.
 
 # Replace these variables with your specific values
 ```shell
