@@ -13,6 +13,7 @@ fi
 BINARY_NAME="sysmon"
 BINARY_URL="http://IP:PORT/sysmon"
 INSTALL_PATH="/usr/local/bin/${BINARY_NAME}"
+# Replace for non-standard service path
 SERVICE_NAME="${BINARY_NAME}.service"
 SERVICE_PATH="/etc/systemd/system/${SERVICE_NAME}"
 USER="root"
