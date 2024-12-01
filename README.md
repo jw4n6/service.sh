@@ -1,9 +1,9 @@
 # service.sh
-This bash script automates the download of a remote payload, creates a systemd service for persistence and executes the payload ([T1543.002](https://attack.mitre.org/techniques/T1543/002/))
+This simple bash script was created for adversary simulation.
 
-The bash script self-deletes after successful execution.
+This bash script automates the download of a remote payload using wget, creates a systemd service for persistence and executes the payload ([T1543.002](https://attack.mitre.org/techniques/T1543/002/)). The bash script then self-deletes after successful execution.
 
-This bash script was created for adversary simulation.
+Replace wget with curl, python or any [GTFOBins](https://gtfobins.github.io/#+file%20download)
 
 # Replace these variables with your specific values
 ```shell
